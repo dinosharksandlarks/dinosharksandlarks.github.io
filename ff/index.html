@@ -4,11 +4,18 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		
+		<title>Future Forms</title>
+		<link rel="icon" type="image/x-icon" href="../slideshow_96dp_FFF_FILL0_wght400_GRAD0_opsz48.png">
+
+
 
 		<link rel="stylesheet" href="../dist/reset.css">
 		<link rel="stylesheet" href="../dist/reveal.css">
 		<link rel="stylesheet" href="../dist/theme/black.css">
+
+		<script src="https://cdn.jsdelivr.net/npm/twemoji@13.0.0/dist/twemoji.min.js"></script>
+
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="../plugin/highlight/monokai.css">
@@ -16,8 +23,103 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown
+
+  data-separator="\n#\n"
+  data-separator-vertical="\n\n\n\n\n\n"
+  data-separator-notes="^Note:"
+  data-charset="iso-8859-15">
+<textarea data-template>
+					# Future forms
+					  - Will <!-- .element: class="fragment" -->
+					  - Be going to <!-- .element: class="fragment" -->
+					  - Present Continuous <!-- .element: class="fragment" -->
+					  - Present Simple <!-- .element: class="fragment" -->
+
+#
+
+					  
+					# Will 
+					  |Sentence type|Sentence structure|Contraction| 
+					  |-|-|-|
+					  |🗨️|<div class="fragment highlight-current-blue">I __will__ do it.</div>|<div class="fragment highlight-current-blue">I<span style="font-weight: bold;">'ll</span> do it.</div>|
+					  |❌|<div class="fragment highlight-current-blue">You __will not__ do it.</div>|<div class="fragment highlight-current-blue">You <span style="font-weight: bold;">won't</span> do it.</div>|
+					  |❔|<div class="fragment highlight-current-blue">__Will__ she do it?</div>|| 
+
+					  <br /> 
+
+					  ||L.P.|L.M.| 
+					  |-|-|-|
+					  |1|will V|will V|
+					  |2|will V|will V|
+					  |3|will V|will V|
+
+
+#					  
+
+
+					  # Be going to 
+					  |Sentence type|Sentence structure|Contraction| 
+					  |-|-|-|
+					  |🗨️|<div class="fragment highlight-current-blue">I __am going to__ do it.</div>|<div class="fragment highlight-current-blue">I<span style="font-weight: bold;">'m going to</span> do it.</div>|
+					  |❌|<div class="fragment highlight-current-blue">We __are not going to__ do it.</div>|<div class="fragment highlight-current-blue">We <span style="font-weight: bold;">aren't going to</span> do it.</div>|
+					  |❔|<div class="fragment highlight-current-blue">__Is__ he going to do  it?</div>||
+
+					  <br /> 
+
+					  ||L.P.|L.M.| 
+					  |-|-|-|
+					  |1|<u>am going to V</u>|are going to V|
+					  |2|are going to V|are going to V| 
+					  |3|<u>is going to V</u>|are going to V| 
+
+					  
+#
+
+
+					  # Present Continuous
+					  |Sentence type|Sentence structure|Contraction| 
+					  |-|-|-|
+					  |🗨️|<div class="fragment highlight-current-blue">I __am__ doing it.</div>|<div class="fragment highlight-current-blue">I<span style="font-weight: bold;">'m</span> doing it.</div>|
+					  |❌|<div class="fragment highlight-current-blue">They __are not__ doing  it.</div>|<div class="fragment highlight-current-blue">They <span style="font-weight: bold;">aren't</span> doing it.</div>|
+					  |❔|<div class="fragment highlight-current-blue">__Is__ she doing it?</div>|| 
+
+					  ||L.P.|L.M.| 
+					  |-|-|-|
+					  |1|<u>am V+ing</u>|are V+ing|
+					  |2|are V+ing|are V+ing|
+					  |3|<u>is V+ing/es</u>|are V+ing|
+		
+					  
+#
+
+
+					  # Present Simple
+					  |Sentence type|Sentence structure|Contraction| 
+					  |-|-|-|
+					  |🗨️|<div class="fragment highlight-current-blue">I do it.</div>||
+					  |❌|<div class="fragment highlight-current-blue">We do not do it.</div>|<div class="fragment highlight-current-blue">We <span style="font-weight: bold;">don't</span> do it.</div>|
+					  |❔|<div class="fragment highlight-current-blue">__Does__ she do it?</div>||
+
+					   
+					  ||L.P.|L.M.| 
+					  |-|-|-|
+					  |1|V|V|
+					  |2|V|V|
+					  |3|<u>V+s/es</u>|V|
+					  
+					
+
+#
+
+
+			
+
+					</textarea>
+				  </section>
+
+				  
+
 			</div>
 		</div>
 
@@ -31,6 +133,13 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				mouseWheel: false,
+				preloadIframes: true,
+				autoPlayMedia: true,
+				width: 1920,
+  height: 1080,
+
+
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
